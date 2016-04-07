@@ -6,44 +6,34 @@
    padding: 2%;
    margin: 0 auto;
 }
-   .navBarHome{
+   .navBarButton1{
       height: 60%;
       width: 10%;
       padding: 2%;
       margin-top: -1%;
       background: white;
-      background: linear-gradient(to bottom, gray , black 100%);
+      background: linear-gradient(to bottom, rgb(0, 0, 0) , rgb(84, 85, 88) 100%);
       opacity: 0.8;
       text-align: center;
-      color: white;
-      border-radius: 25px;g
+      border-radius: 25px;
+      color: rgb(241, 247, 244)
+      /*position: fixed;*/
    }
 
-   .navBarAbout{
+   .navBarButton2{
       height: 60%;
       width: 10%;
       padding: 2%;
       margin-top: -1%;
       background: white;
-      background: linear-gradient(to bottom, gray , black 100%);
+      background: linear-gradient(to bottom, rgb(84, 85, 88) , rgb(0, 0, 0) 100%);
       opacity: 0.8;
       text-align: center;
-      color: white;
+      color: rgb(255, 255, 255);
       border-radius: 25px;
+      /*position: fixed;*/
    }
 
-   .navBarProjects{
-      height: 60%;
-      width: 10%;
-      padding: 2%;
-      margin-top: -1%;
-      background: white;
-      background: linear-gradient(to bottom, black , gray 100%);
-      opacity: 0.8;
-      text-align: center;
-      color: white;
-      border-radius: 25px;
-   }
 
 .homeCard{
    background-color: #FFD700;
@@ -51,4 +41,12 @@
    text-align: center;
    padding: 5%;
    font-size: 30px;
+}
+.cardUno{
+   background: rgb(34, 65, 173);
+   height: 400px;
+}
+.cardDos{
+   background: rgb(112, 112, 112);
+   height: 400px;
 }
